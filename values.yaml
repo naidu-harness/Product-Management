@@ -1,7 +1,7 @@
 name: todolist
 replicas: 1
 
-image: bluebbb/godemo:<+pipeline.sequenceId>
+image: bluebbb/godemo:<+artifact.tag>
 
 
 createNamespace: true
